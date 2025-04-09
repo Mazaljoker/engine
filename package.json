@@ -1,6 +1,11 @@
 {
   "name": "@open3cl/engine",
   "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "description": "Open Source 3CL-DPE engine",
   "main": "index.js",
   "directories": {
@@ -11,10 +16,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-     "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
+    "start": "next start"
     "test": "vitest run",
     "test:ci": "vitest run --coverage",
     "test:corpus": "node test/corpus/run_corpus_checks.js",
