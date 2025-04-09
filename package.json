@@ -4,19 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
-  },
-  "description": "Open Source 3CL-DPE engine",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "type": "module",
-  "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
-    "start": "next start"
+    "start": "next start",
     "test": "vitest run",
     "test:ci": "vitest run --coverage",
     "test:corpus": "node test/corpus/run_corpus_checks.js",
@@ -36,6 +24,16 @@
     "release:dry": "semantic-release --dry-run",
     "prepare": "husky install",
     "assets:sync": "node scripts/synchronize_assets.js"
+  },
+  "description": "Open Source 3CL-DPE engine",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "type": "module",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
