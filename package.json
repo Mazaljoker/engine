@@ -44,11 +44,15 @@
     "3cl"
   ],
   "dependencies": {
-    "dioma": "^0.4.6",
-    "fast-xml-parser": "^4.5.0",
-    "lodash-es": "^4.17.21",
-    "winston": "3.13.0"
-  },
+  "next": "^13.4.0",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "dioma": "^0.4.6",
+  "fast-xml-parser": "^4.5.0",
+  "lodash-es": "^4.17.21",
+  "winston": "3.13.0"
+}
+,
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
