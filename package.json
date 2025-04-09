@@ -12,6 +12,9 @@
     "access": "public"
   },
   "scripts": {
+     "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
     "test": "vitest run",
     "test:ci": "vitest run --coverage",
     "test:corpus": "node test/corpus/run_corpus_checks.js",
